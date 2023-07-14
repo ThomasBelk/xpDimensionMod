@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "xpdimensionmod:sapphire"
+    }
+  },
+  "result": {
+    "item": "xpdimensionmod:sapphire_block"
+  }
+}
