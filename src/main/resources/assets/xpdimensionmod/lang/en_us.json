@@ -1,5 +1,6 @@
 {
   "item.xpdimensionmod.sapphire": "Sapphire",
   "item.xpdimensionmod.raw_sapphire": "Raw Sapphire",
-  "creativetab.xp_dimension_tab": "XP Dimension"
+  "creativetab.xp_dimension_tab": "XP Dimension",
+  "block.xpdimensionmod.sapphire_block": "Sapphire Block"
 }

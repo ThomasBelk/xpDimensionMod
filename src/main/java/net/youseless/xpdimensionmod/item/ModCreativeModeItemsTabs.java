@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.youseless.xpdimensionmod.XpDimensionMod;
+import net.youseless.xpdimensionmod.block.ModBlocks;
 
 public class ModCreativeModeItemsTabs {
 
@@ -21,6 +22,8 @@ public class ModCreativeModeItemsTabs {
                             .displayItems(((pParameters, pOutput) -> {
                                 pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                                 pOutput.accept(ModItems.SAPPHIRE.get());
+
+                                pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                             }))
                             .build());
 
