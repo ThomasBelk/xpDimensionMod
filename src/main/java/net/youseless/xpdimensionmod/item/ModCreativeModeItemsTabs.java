@@ -22,9 +22,11 @@ public class ModCreativeModeItemsTabs {
                             .displayItems(((pParameters, pOutput) -> {
                                 pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                                 pOutput.accept(ModItems.SAPPHIRE.get());
+                                pOutput.accept(ModItems.RAW_EXPERIENCE.get());
 
                                 pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                                 pOutput.accept(ModBlocks.EXPERIENCE_ORE.get());
+
                             }))
                             .build());
 
