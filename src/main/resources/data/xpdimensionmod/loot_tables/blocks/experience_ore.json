@@ -55,5 +55,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/experience_ore"
+  "random_sequence": "xpdimensionmod:blocks/experience_ore"
 }
