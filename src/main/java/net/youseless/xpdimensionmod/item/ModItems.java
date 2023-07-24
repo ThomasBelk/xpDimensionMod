@@ -16,7 +16,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> RAW_EXPERIENCE = ITEMS.register("raw_experience",
-            () -> new Item(new Item.Properties()));
+            () -> new ExperienceGivingItem(new Item.Properties()));
 
 public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
         () -> new Item(new Item.Properties()));
