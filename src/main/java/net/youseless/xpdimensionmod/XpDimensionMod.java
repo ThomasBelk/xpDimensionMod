@@ -17,6 +17,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.youseless.xpdimensionmod.block.ModBlocks;
 import net.youseless.xpdimensionmod.item.ModCreativeModeItemsTabs;
 import net.youseless.xpdimensionmod.item.ModItems;
+import net.youseless.xpdimensionmod.world.dimension.ModDimensions;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -35,6 +36,9 @@ public class XpDimensionMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        // Register Custom Dimensions
+        ModDimensions.register();
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
