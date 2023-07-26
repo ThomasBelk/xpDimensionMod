@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.youseless.xpdimensionmod.XpDimensionMod;
+import net.youseless.xpdimensionmod.block.custom.JumpPadBlock;
 import net.youseless.xpdimensionmod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -22,12 +23,15 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, XpDimensionMod.MOD_ID);
 
     public static final RegistryObject<Block> SAPPHIRE_BLOCK =
-            registerBlock("sapphire_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            registerBlock("sapphire_block", () -> new JumpPadBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     public static final RegistryObject<Block> EXPERIENCE_ORE =
             registerBlock("experience_ore", () -> new DropExperienceBlock(
                     BlockBehaviour.Properties.copy(Blocks.IRON_ORE),
                     UniformInt.of(5, 8)));
+
+    public static final RegistryObject<Block> AIR_BLOCK =
+            registerBlock("air_block", () -> new JumpPadBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
 
     private static  <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

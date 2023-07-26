@@ -7,10 +7,15 @@ import net.minecraft.world.item.ItemStack;
 import org.jetbrains.annotations.NotNull;
 
 
+/**
+ * Extends the item class to make an item that gives experience when consumed instead of food
+ * Also is consumed quickly
+ */
 public class ExperienceGivingItem extends Item {
     public ExperienceGivingItem(Properties pProperties) {
         super(pProperties.food(new FoodProperties.Builder()
                 .alwaysEat()
+                .fast()
                 .nutrition(0)
                 .saturationMod(0)
                 .build()));

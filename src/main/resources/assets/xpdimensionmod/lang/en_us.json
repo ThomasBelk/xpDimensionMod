@@ -4,5 +4,6 @@
   "creativetab.xp_dimension_tab": "XP Dimension",
   "block.xpdimensionmod.sapphire_block": "Sapphire Block",
   "block.xpdimensionmod.experience_ore": "Experience Ore",
-  "item.xpdimensionmod.raw_experience" : "Raw Experience"
+  "item.xpdimensionmod.raw_experience" : "Raw Experience",
+  "block.xpdimensionmod.air_block": "Air Current"
 }
