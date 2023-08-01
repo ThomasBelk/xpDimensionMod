@@ -7,23 +7,23 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "minecraft:plains",
+          "biome": "minecraft:desert",
           "parameters": {
-            "temperature": 0,
+            "temperature": 1,
             "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
+            "continentalness": 2,
+            "erosion": 2,
             "weirdness": 0,
             "depth": 0,
             "offset": 0
           }
         },
         {
-          "biome": "minecraft:small_end_islands",
+          "biome": "minecraft:plains",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
+            "temperature": 1,
+            "humidity": 2,
+            "continentalness": 2,
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
