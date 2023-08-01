@@ -24,7 +24,7 @@ public class ModCreativeModeItemsTabs {
                                 pOutput.accept(ModItems.SAPPHIRE.get());
                                 pOutput.accept(ModItems.RAW_EXPERIENCE.get());
 
-                                pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                                pOutput.accept(ModBlocks.AIR_CURRENT_BLOCK.get());
                                 pOutput.accept(ModBlocks.EXPERIENCE_ORE.get());
 
                             }))

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "" : {
+      "model": "xpdimensionmod:block/air_current_block"
+    }
+  }
+}
