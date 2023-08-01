@@ -6,6 +6,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.GlassBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -23,7 +24,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, XpDimensionMod.MOD_ID);
 
     public static final RegistryObject<Block> SAPPHIRE_BLOCK =
-            registerBlock("sapphire_block", () -> new JumpPadBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            registerBlock("sapphire_block", () -> new JumpPadBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)));
 
     public static final RegistryObject<Block> EXPERIENCE_ORE =
             registerBlock("experience_ore", () -> new DropExperienceBlock(
