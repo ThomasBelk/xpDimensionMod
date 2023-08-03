@@ -5,5 +5,6 @@
   "block.xpdimensionmod.air_current_block": "Air Current Block",
   "block.xpdimensionmod.experience_ore": "Experience Ore",
   "item.xpdimensionmod.raw_experience" : "Raw Experience",
-  "block.xpdimensionmod.air_block": "Air Current"
+  "block.xpdimensionmod.air_block": "Air Current",
+  "item.xpdimensionmod.wing_leaf" : "Wing Leaf"
 }

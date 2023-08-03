@@ -1,5 +1,6 @@
 package net.youseless.xpdimensionmod.item;
 
+import net.minecraft.world.item.FireworkRocketItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -17,6 +18,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_EXPERIENCE = ITEMS.register("raw_experience",
             () -> new ExperienceGivingItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> WING_LEAF = ITEMS.register("wing_leaf",
+            () -> new FireworkRocketItem(new Item.Properties()));
 
 public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
         () -> new Item(new Item.Properties()));
