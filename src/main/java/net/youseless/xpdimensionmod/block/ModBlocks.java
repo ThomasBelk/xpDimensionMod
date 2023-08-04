@@ -23,7 +23,8 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, XpDimensionMod.MOD_ID);
 
     public static final RegistryObject<Block> AIR_CURRENT_BLOCK =
-            registerBlock("air_current_block", () -> new AirCurrentBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)));
+            registerBlock("air_current_block",
+                    () -> new AirCurrentBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noLootTable()));
 
     public static final RegistryObject<Block> EXPERIENCE_ORE =
             registerBlock("experience_ore", () -> new DropExperienceBlock(
