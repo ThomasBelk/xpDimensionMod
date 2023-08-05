@@ -16,7 +16,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        //blockWithItem(ModBlocks.EXPERIENCE_ORE);
+        //simpleBlock(ModBlocks.EXPERIENCE_ORE.get(), cubeAll(ModBlocks.EXPERIENCE_ORE.get()));
     }
 
     private void blockWithItem(RegistryObject<Block> block) {
