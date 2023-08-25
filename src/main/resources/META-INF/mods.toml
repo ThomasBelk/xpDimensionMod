@@ -54,6 +54,14 @@ description='''${mod_description}'''
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT, or SERVER
     side="BOTH"
+# Terrablender
+[[dependencies.${mod_id}]]
+modId="terrablender"
+mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+versionRange="${terrablender_version_range}"
+ordering="NONE"
+side="BOTH"
 # Here's another dependency
 [[dependencies.${mod_id}]]
     modId="minecraft"
