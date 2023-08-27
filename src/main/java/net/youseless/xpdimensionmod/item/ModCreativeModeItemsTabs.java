@@ -26,6 +26,7 @@ public class ModCreativeModeItemsTabs {
 
                                 pOutput.accept(ModBlocks.AIR_CURRENT_BLOCK.get());
                                 pOutput.accept(ModBlocks.EXPERIENCE_ORE.get());
+                                pOutput.accept(ModBlocks.XP_MUD.get());
 
                             }))
                             .build());

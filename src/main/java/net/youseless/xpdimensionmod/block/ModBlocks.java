@@ -31,6 +31,10 @@ public class ModBlocks {
                     BlockBehaviour.Properties.copy(Blocks.IRON_ORE),
                     UniformInt.of(5, 8)));
 
+
+    public static final RegistryObject<Block> XP_MUD =
+            registerBlock("xp_mud", () -> new Block(BlockBehaviour.Properties.copy(Blocks.MUD)));
+
     private static  <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
